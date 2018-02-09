@@ -1,0 +1,7 @@
+name:  {{ template }}
+hosts: {{ ip }}
+tasks:
+  - name: {{ cmd }}
+    command: {{ cmd }}
+  - name: write the template
+    template: src=/srv/httpd.j2 des=/etc/httpd/httpd.conf

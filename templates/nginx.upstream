@@ -1,0 +1,7 @@
+upstream {{ upstream_name }} {                                        
+    {{ upstream_mode }};
+    {% if kp %}keepalive {{ kp }};{% endif %}
+    {% for ip in upstream_rs %}
+    server {{ ip }} {{ upstream_rs[ip] }};
+    {% endfor %}
+}

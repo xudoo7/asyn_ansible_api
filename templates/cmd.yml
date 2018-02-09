@@ -1,0 +1,5 @@
+- name:  {# template|safe #}
+  hosts: {{ ip|safe }}
+  tasks:
+    - name: {{ cmd }}
+      command: {{ cmd }}

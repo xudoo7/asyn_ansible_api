@@ -1,0 +1,12 @@
+- name: template
+  hosts: ip
+  tasks:
+    - name: cmd
+      command: cmd
+    - name: write the template1
+      template: src=/srv/httpd.j1 des=/etc/httpd/httpd.conf
+    - name: write the template2
+      template: src=/srv/httpd.j2 des=/etc/httpd/httpd.conf
+  handler:
+    - name: write the template3
+      template: src=/srv/httpd.j3 des=/etc/httpd/httpd.conf

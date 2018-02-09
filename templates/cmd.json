@@ -1,0 +1,10 @@
+{
+    "tasks": [
+        {
+            "command": {{ cmd }}, 
+            "name": {{ cmd }}
+        }
+    ], 
+    "host": {{ ip }}, 
+    "name": "exec a command {{ cmd }}"
+}

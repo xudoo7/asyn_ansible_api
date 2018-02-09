@@ -1,0 +1,5 @@
+- name: testcmd
+  hosts: all
+  tasks:
+    - name: cmd
+      command: whoami

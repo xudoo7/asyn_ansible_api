@@ -1,0 +1,22 @@
+upstream_name: nginx99
+upstream_mode: url_bash
+upstream_rs:
+  - server_info:
+      kp: 1
+      rs:
+          - real_server:
+              ip : 10.3.11.9
+              port: 80
+              weight: 2
+          - real_server:
+              ip : 10.3.11.10
+              port: 80
+              weight: 2
+          - real_server:
+              ip : 10.3.11.11
+              port: 80
+              weight: 2
+          - real_server:
+              ip : 10.3.11.12
+              port: 80
+              weight: 2
