@@ -251,3 +251,5 @@
 2018-02-11 00:10:28 - _internal.py:88(_internal:_log) - INFO -  * Debugger PIN: 239-139-087
 2018-02-11 00:17:58 - _internal.py:88(_internal:_log) - INFO -  * Detected change in '/root/PycharmProjects/untitled0831/models/AnsibleApiCall.py', reloading
 2018-02-11 00:17:58 - _internal.py:88(_internal:_log) - INFO -  * Restarting with stat
+2018-02-11 00:18:02 - _internal.py:88(_internal:_log) - WARNING -  * Debugger is active!
+2018-02-11 00:18:02 - _internal.py:88(_internal:_log) - INFO -  * Debugger PIN: 239-139-087
