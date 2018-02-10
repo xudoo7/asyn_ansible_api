@@ -1,6 +1,5 @@
-from app import create_app, celery
-from app.tasks.FlaskAnsibleCall import Add, AnsibleRunCmd, TaskStatus
-import logging
+from app import create_app
+from app.tasks.FlaskAnsibleCall import Add, AnsibleRunCmd, TaskStatus, AnsibleRunPlaybook
 
 # from gevent import monkey
 # from gevent.pywsgi import WSGIServer
