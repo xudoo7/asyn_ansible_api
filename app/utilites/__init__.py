@@ -2,10 +2,9 @@
 from __future__ import print_function, unicode_literals, absolute_import
 
 import os
-# urllib by python3.5
-from urllib.request import urlretrieve
-from ansible.errors import AnsibleParserError
+
 import yaml
+
 from config import BaseConfig
 
 
@@ -36,7 +35,7 @@ def load_pb(file_name=None, file_type=None, *args, **kwargs):
     return to_json
 
 
-def pb_prepare(pb_name=None, pb_type=None, pb_key=None):
+def pb_prepare(pb_name=None, pb_type=None, pb_key='template'):
     try:
         check_file(pb_name, pb_type) or get_playbook(pb_name, pb_type)
         pb_json = load_pb(pb_name, pb_type)

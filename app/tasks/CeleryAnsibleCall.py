@@ -2,26 +2,11 @@
 from __future__ import print_function, unicode_literals, absolute_import
 
 from app import celery
-from models.AnsibleApiCall import AnsibleApiCall
 from app.utilites import pb_prepare
+from models.AnsibleApiCall import AnsibleApiCall
 
 
-"""@celery.taskHost:
-#=================
-#192.168.1.7
-192.168.1.4
-192.168.1.2
-192.168.1.6
-127.0.0.1
-192.168.1.3
-Group:
-=================
-all
-group1
-group2
-group7
-ungrouped"""
-
+@celery.task
 def add_together(a, b):
     return a + b
 
@@ -42,13 +27,14 @@ def callansibleRun(self,resource):
 def callansiblePlookbook(self, resource):
     try:
         inventory = resource.pop('resource')
-        pb_prepare(**resource)
+        playbook_info = resource.pop('playbook')
+        pb_prepare(**playbook_info)
     except KeyError:
         inventory = None
         playbook_info = None
     ansiblePlaybook = AnsibleApiCall(inventory)
-    ansiblePlaybook.runplaybook(**resource)
-    runResult = ansiblePlaybook.get_result(self.request)
+    ansiblePlaybook.runplaybook(**playbook_info)
+    runResult = ansiblePlaybook.get_result(self.request.id)
     return runResult
 
 if __name__ == "__main__":
@@ -99,4 +85,4 @@ if __name__ == "__main__":
         },
     }
     rundelay=callansiblePlookbook.delay(res)
-    print(rundelay.get())
+    rundelay.get()

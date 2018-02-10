@@ -1,7 +1,9 @@
-upstream {{ upstream_name }} {                                        
-    {{ upstream_mode }};
-    {% if kp %}keepalive {{ kp }};{% endif %}
-    {% for ip in upstream_rs %}
-    server {{ ip }} {{ upstream_rs[ip] }};
+upstream {{ ldata['upstream_name'] }} {                                        
+    {{ ldata['upstream_mode'] }};
+    {% for i in ldata['upstream_rs'] %}
+    {% if i['server_info']['kp'] %}keepalive {{ i['server_info']['kp'] }};{% endif %}
+    {% for a in i['server_info']['rs'] %}
+    server {{ a['real_server']['ip'] }} {{ a['real_server']['port'] }};
+    {% endfor %}
     {% endfor %}
 }

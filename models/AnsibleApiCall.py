@@ -4,14 +4,16 @@ from __future__ import print_function, unicode_literals, absolute_import
 import logging
 import os
 from collections import namedtuple
+
 import ansible.executor.task_queue_manager
-from ansible.playbook.play import Play
-from ansible.executor.playbook_executor import PlaybookExecutor
 from ansible.errors import AnsibleParserError, AnsibleFileNotFound
-from models.ResourceBase import ResourceBase
-from models.ResultsCallBack import ResultsCallBack
+from ansible.executor.playbook_executor import PlaybookExecutor
+from ansible.playbook.play import Play
+
 from app.utilites import handle_exception
 from config import BaseConfig
+from models.ResourceBase import ResourceBase
+from models.ResultsCallBack import ResultsCallBack
 
 logger = logging.basicConfig()
 
@@ -138,15 +140,15 @@ class AnsibleApiCall(ResourceBase):
 if __name__ == "__main__":
     res = {
         "hosts": {
-            "127.0.0.1": {"port": "22", "username": "xusd", "password": "xuderoo7"},
+            "10.0.2.15": {"port": "22", "username": "xusd", "password": "xuderoo7"},
         },
         "groups": {
-            "group1": {"hosts": ["127.0.0.1"], vars: {'var1': 'xxxx', 'var2': 'yyy'}},
+            "group1": {"hosts": ["10.0.2.15"], vars: {'var1': 'xxxx', 'var2': 'yyy'}},
         },
     }
     inv = AnsibleApiCall(res)
     inv.get_lists()
-    inv.runcmd('all', 'shell', 'whoami')
-    print(inv.get_result('001'))
-    #inv.runplaybook("cmd.yaml","host")
-    #print(inv.get_result('002'))
+    #inv.runcmd('10.0.2.15', 'shell', 'whoami')
+    #print(inv.get_result('001'))
+    inv.runplaybook("cmd.yaml","host")
+    print(inv.get_result('002'))

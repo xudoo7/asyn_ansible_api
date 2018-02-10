@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 from __future__ import print_function, unicode_literals, absolute_import
 
-from app.tasks.CeleryAnsibleCall import callansibleRun, callansiblePlookbook, add_together
-from flask_restful import reqparse, abort, Resource, Api
 from flask import Flask
+from flask_restful import reqparse, abort, Resource, Api
+
+from app.tasks.CeleryAnsibleCall import callansibleRun, callansiblePlookbook, add_together
 
 app = Flask(__name__)
 api = Api(app)
@@ -86,8 +87,8 @@ class TaskStatus(Resource):
                 'state': task.state,
                 'status': task.info
             }
-            # if 'result' in task.info:
-            #   response['result'] = task.info['result']
+            if 'result' in task.info:
+                response['result'] = task.info['result']
         else:
             # something went wrong in the background job
             response = {

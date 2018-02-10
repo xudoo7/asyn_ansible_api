@@ -1,11 +1,12 @@
 # -*- coding: utf-8 -*-
 from __future__ import print_function, unicode_literals, absolute_import
+
+import ansible.constants as ANS_CONS
 from ansible.inventory import Inventory
-from ansible.parsing.dataloader import DataLoader
-from ansible.vars import VariableManager
 from ansible.inventory.group import Group
 from ansible.inventory.host import Host
-import ansible.constants as ANS_CONS
+from ansible.parsing.dataloader import DataLoader
+from ansible.vars import VariableManager
 
 
 class ResourceBase(object):
@@ -121,7 +122,7 @@ if __name__ == "__main__":
         },
         "groups": {
             "group1": {"hosts": ["127.0.0.1", "192.168.1.2"], vars: {'var1': 'xxxx', 'var2': 'yyy'}},
-            "group2": {"hosts": ["192.168.1.4", "192.168.1.2"], vars: {'var1': 'xxxx', 'var2': 'yyy'}},
+            "group2": {"hosts": ["192.168.1.1", "192.168.1.2"], vars: {'var1': 'xxxx', 'var2': 'yyy'}},
             "group7": {"hosts": ["192.168.1.3"], "child": ["group1"], vars: {'var3': 'z', 'var4': 'o'}},
         }
     }

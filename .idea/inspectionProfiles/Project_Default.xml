@@ -23,7 +23,6 @@
       <option name="ignoredIdentifiers">
         <list>
           <option value="dict.iteritems" />
-          <option value="test17.*" />
         </list>
       </option>
     </inspection_tool>

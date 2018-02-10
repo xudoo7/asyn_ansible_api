@@ -95,3 +95,159 @@
 2017-08-08 08:28:57 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [08/Aug/2017 08:28:57] "POST /ansiblerun HTTP/1.1" 200 -
 2017-08-08 08:29:15 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [08/Aug/2017 08:29:15] "POST /ansiblerun HTTP/1.1" 200 -
 2017-08-08 08:30:02 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [08/Aug/2017 08:30:02] "GET /taskstatus/ad_hoc/ad50f441-c443-4311-99f1-f485dcf41e05 HTTP/1.1" 200 -
+2017-09-15 09:44:35 - _internal.py:87(_internal:_log) - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-09-15 09:44:35 - _internal.py:87(_internal:_log) - INFO -  * Restarting with stat
+2017-09-15 09:44:36 - _internal.py:87(_internal:_log) - WARNING -  * Debugger is active!
+2017-09-15 09:44:36 - _internal.py:87(_internal:_log) - INFO -  * Debugger PIN: 253-540-778
+2017-09-15 09:44:51 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 09:44:51] "POST /playbook HTTP/1.1" 400 -
+2017-09-15 09:45:47 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 09:45:47] "POST /playbook HTTP/1.1" 400 -
+2017-09-15 09:46:03 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 09:46:03] "POST /ansiblerun HTTP/1.1" 200 -
+2017-09-15 09:47:31 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 09:47:31] "POST /ansiblerun HTTP/1.1" 400 -
+2017-09-15 09:48:01 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 09:48:01] "POST /playbook HTTP/1.1" 400 -
+2017-09-15 09:49:26 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 09:49:26] "POST /playbook HTTP/1.1" 400 -
+2017-09-15 09:49:33 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 09:49:33] "POST /playbook HTTP/1.1" 400 -
+2017-09-15 09:49:39 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 09:49:39] "POST /playbook HTTP/1.1" 400 -
+2017-09-15 09:49:44 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 09:49:44] "POST /playbook HTTP/1.1" 400 -
+2017-09-15 09:54:11 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 09:54:11] "POST /playbook HTTP/1.1" 400 -
+2017-09-15 09:55:21 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 09:55:21] "POST /playbook HTTP/1.1" 400 -
+2017-09-15 09:57:58 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 09:57:58] "POST /playbook HTTP/1.1" 200 -
+2017-09-15 10:00:30 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 10:00:30] "POST /playbook HTTP/1.1" 400 -
+2017-09-15 10:00:44 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 10:00:44] "POST /playbook HTTP/1.1" 400 -
+2017-09-15 10:00:49 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 10:00:49] "POST /playbook HTTP/1.1" 200 -
+2017-09-15 10:02:04 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 10:02:04] "POST /playbook HTTP/1.1" 400 -
+2017-09-15 10:02:09 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 10:02:09] "POST /playbook HTTP/1.1" 200 -
+2017-09-15 10:04:21 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 10:04:21] "POST /ansiblerun HTTP/1.1" 400 -
+2017-09-15 10:04:36 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 10:04:36] "POST /ansiblerun HTTP/1.1" 200 -
+2017-09-15 10:11:31 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 10:11:31] "GET /taskstatus/ad_hoc/edaaee43-5b99-485d-8a15-cda47d48a837 HTTP/1.1" 200 -
+2017-09-15 10:12:05 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 10:12:05] "POST /ansiblerun HTTP/1.1" 200 -
+2017-09-15 10:12:34 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 10:12:34] "GET /taskstatus/ad_hoc/727d83c9-cb48-45f8-bd40-6dea0e914803 HTTP/1.1" 200 -
+2017-09-15 10:12:46 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 10:12:46] "POST /playbook HTTP/1.1" 200 -
+2017-09-15 10:13:13 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 10:13:13] "GET /taskstatus/playbook/cee483e8-1dd1-470f-942e-e6f0993e196c HTTP/1.1" 500 -
+2017-09-15 10:16:41 - _internal.py:87(_internal:_log) - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-09-15 10:16:41 - _internal.py:87(_internal:_log) - INFO -  * Restarting with stat
+2017-09-15 10:16:42 - _internal.py:87(_internal:_log) - WARNING -  * Debugger is active!
+2017-09-15 10:16:42 - _internal.py:87(_internal:_log) - INFO -  * Debugger PIN: 253-540-778
+2017-09-15 10:16:53 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 10:16:53] "POST /playbook HTTP/1.1" 500 -
+2017-09-15 10:17:25 - _internal.py:87(_internal:_log) - INFO -  * Detected change in '/root/proj0712/untitled0930/app/tasks/FlaskAnsibleCall.py', reloading
+2017-09-15 10:17:25 - _internal.py:87(_internal:_log) - INFO -  * Restarting with stat
+2017-09-15 10:17:26 - _internal.py:87(_internal:_log) - WARNING -  * Debugger is active!
+2017-09-15 10:17:26 - _internal.py:87(_internal:_log) - INFO -  * Debugger PIN: 253-540-778
+2017-09-15 10:17:29 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 10:17:29] "POST /playbook HTTP/1.1" 200 -
+2017-09-15 10:19:50 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 10:19:50] "POST /playbook HTTP/1.1" 200 -
+2017-09-15 10:21:48 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 10:21:48] "POST /playbook HTTP/1.1" 200 -
+2017-09-15 10:27:27 - _internal.py:87(_internal:_log) - INFO -  * Detected change in '/root/proj0712/untitled0930/app/tasks/FlaskAnsibleCall.py', reloading
+2017-09-15 10:27:27 - _internal.py:87(_internal:_log) - INFO -  * Restarting with stat
+2017-09-15 10:27:28 - _internal.py:87(_internal:_log) - WARNING -  * Debugger is active!
+2017-09-15 10:27:28 - _internal.py:87(_internal:_log) - INFO -  * Debugger PIN: 253-540-778
+2017-09-15 10:27:34 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 10:27:34] "POST /playbook HTTP/1.1" 200 -
+2017-09-15 10:28:00 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 10:28:00] "GET /taskstatus/playbook/09c084b4-8aa4-4d30-87f3-42090790038f HTTP/1.1" 500 -
+2017-09-15 10:28:16 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 10:28:16] "GET /taskstatus/playbook/09c084b4-8aa4-4d30-87f3-42090790038f HTTP/1.1" 500 -
+2017-09-15 10:32:51 - _internal.py:87(_internal:_log) - INFO -  * Detected change in '/root/proj0712/untitled0930/app/tasks/FlaskAnsibleCall.py', reloading
+2017-09-15 10:32:51 - _internal.py:87(_internal:_log) - INFO -  * Restarting with stat
+2017-09-15 10:32:52 - _internal.py:87(_internal:_log) - WARNING -  * Debugger is active!
+2017-09-15 10:32:52 - _internal.py:87(_internal:_log) - INFO -  * Debugger PIN: 253-540-778
+2017-09-15 10:32:56 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 10:32:56] "POST /playbook HTTP/1.1" 200 -
+2017-09-15 10:37:40 - _internal.py:87(_internal:_log) - INFO -  * Detected change in '/root/proj0712/untitled0930/app/tasks/CeleryAnsibleCall.py', reloading
+2017-09-15 10:37:40 - _internal.py:87(_internal:_log) - INFO -  * Restarting with stat
+2017-09-15 10:37:41 - _internal.py:87(_internal:_log) - WARNING -  * Debugger is active!
+2017-09-15 10:37:41 - _internal.py:87(_internal:_log) - INFO -  * Debugger PIN: 253-540-778
+2017-09-15 10:37:52 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 10:37:52] "POST /playbook HTTP/1.1" 200 -
+2017-09-15 11:07:18 - _internal.py:87(_internal:_log) - INFO -  * Detected change in '/root/proj0712/untitled0930/app/tasks/CeleryAnsibleCall.py', reloading
+2017-09-15 11:07:18 - _internal.py:87(_internal:_log) - INFO -  * Restarting with stat
+2017-09-15 11:07:19 - _internal.py:87(_internal:_log) - WARNING -  * Debugger is active!
+2017-09-15 11:07:19 - _internal.py:87(_internal:_log) - INFO -  * Debugger PIN: 253-540-778
+2017-09-15 11:07:59 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 11:07:59] "POST /playbook HTTP/1.1" 200 -
+2017-09-15 11:10:40 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 11:10:40] "POST /playbook HTTP/1.1" 200 -
+2017-09-15 11:11:56 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 11:11:56] "POST /playbook HTTP/1.1" 200 -
+2017-09-15 11:12:21 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 11:12:21] "POST /playbook HTTP/1.1" 200 -
+2017-09-15 11:13:32 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 11:13:32] "POST /ansiblerun HTTP/1.1" 200 -
+2017-09-15 11:19:55 - _internal.py:87(_internal:_log) - INFO -  * Detected change in '/root/proj0712/untitled0930/app/utilites/__init__.py', reloading
+2017-09-15 11:19:55 - _internal.py:87(_internal:_log) - INFO -  * Restarting with stat
+2017-09-15 11:19:56 - _internal.py:87(_internal:_log) - WARNING -  * Debugger is active!
+2017-09-15 11:19:56 - _internal.py:87(_internal:_log) - INFO -  * Debugger PIN: 253-540-778
+2017-09-15 11:20:26 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 11:20:26] "POST /playbook HTTP/1.1" 200 -
+2017-09-15 11:21:55 - _internal.py:87(_internal:_log) - INFO -  * Detected change in '/root/proj0712/untitled0930/app/utilites/__init__.py', reloading
+2017-09-15 11:21:55 - _internal.py:87(_internal:_log) - INFO -  * Restarting with stat
+2017-09-15 11:21:56 - _internal.py:87(_internal:_log) - WARNING -  * Debugger is active!
+2017-09-15 11:21:56 - _internal.py:87(_internal:_log) - INFO -  * Debugger PIN: 253-540-778
+2017-09-15 11:22:07 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 11:22:07] "POST /playbook HTTP/1.1" 200 -
+2017-09-15 11:23:03 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 11:23:03] "POST /playbook HTTP/1.1" 400 -
+2017-09-15 11:23:18 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 11:23:18] "POST /playbook HTTP/1.1" 200 -
+2017-09-15 11:23:57 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 11:23:57] "GET /taskstatus/playbook/7950f4d6-9185-498e-87e8-9769e8f9da2f HTTP/1.1" 500 -
+2017-09-15 11:31:30 - _internal.py:87(_internal:_log) - INFO -  * Detected change in '/root/proj0712/untitled0930/app/tasks/CeleryAnsibleCall.py', reloading
+2017-09-15 11:31:30 - _internal.py:87(_internal:_log) - INFO -  * Restarting with stat
+2017-09-15 11:31:31 - _internal.py:87(_internal:_log) - WARNING -  * Debugger is active!
+2017-09-15 11:31:31 - _internal.py:87(_internal:_log) - INFO -  * Debugger PIN: 253-540-778
+2017-09-15 11:31:48 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 11:31:48] "POST /playbook HTTP/1.1" 200 -
+2017-09-15 11:33:59 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 11:33:59] "POST /playbook HTTP/1.1" 200 -
+2017-09-15 11:36:39 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 11:36:39] "POST /playbook HTTP/1.1" 200 -
+2017-09-15 11:37:32 - _internal.py:87(_internal:_log) - INFO -  * Detected change in '/root/proj0712/untitled0930/app/tasks/CeleryAnsibleCall.py', reloading
+2017-09-15 11:37:32 - _internal.py:87(_internal:_log) - INFO -  * Restarting with stat
+2017-09-15 11:37:33 - _internal.py:87(_internal:_log) - WARNING -  * Debugger is active!
+2017-09-15 11:37:33 - _internal.py:87(_internal:_log) - INFO -  * Debugger PIN: 253-540-778
+2017-09-15 11:37:59 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 11:37:59] "POST /playbook HTTP/1.1" 200 -
+2017-09-15 11:38:39 - _internal.py:87(_internal:_log) - INFO -  * Detected change in '/root/proj0712/untitled0930/app/tasks/CeleryAnsibleCall.py', reloading
+2017-09-15 11:38:40 - _internal.py:87(_internal:_log) - INFO -  * Restarting with stat
+2017-09-15 11:38:40 - _internal.py:87(_internal:_log) - WARNING -  * Debugger is active!
+2017-09-15 11:38:40 - _internal.py:87(_internal:_log) - INFO -  * Debugger PIN: 253-540-778
+2017-09-15 11:38:43 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 11:38:43] "POST /playbook HTTP/1.1" 200 -
+2017-09-15 11:39:06 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 11:39:06] "POST /playbook HTTP/1.1" 200 -
+2017-09-15 11:40:32 - _internal.py:87(_internal:_log) - INFO -  * Detected change in '/root/proj0712/untitled0930/app/tasks/CeleryAnsibleCall.py', reloading
+2017-09-15 11:40:32 - _internal.py:87(_internal:_log) - INFO -  * Restarting with stat
+2017-09-15 11:40:33 - _internal.py:87(_internal:_log) - WARNING -  * Debugger is active!
+2017-09-15 11:40:33 - _internal.py:87(_internal:_log) - INFO -  * Debugger PIN: 253-540-778
+2017-09-15 11:40:43 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 11:40:43] "POST /playbook HTTP/1.1" 200 -
+2017-09-15 12:16:31 - _internal.py:87(_internal:_log) - INFO -  * Detected change in '/root/proj0712/untitled0930/app/tasks/CeleryAnsibleCall.py', reloading
+2017-09-15 12:16:31 - _internal.py:87(_internal:_log) - INFO -  * Restarting with stat
+2017-09-15 12:16:32 - _internal.py:87(_internal:_log) - WARNING -  * Debugger is active!
+2017-09-15 12:16:32 - _internal.py:87(_internal:_log) - INFO -  * Debugger PIN: 253-540-778
+2017-09-15 12:16:46 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 12:16:46] "POST /playbook HTTP/1.1" 200 -
+2017-09-15 12:18:32 - _internal.py:87(_internal:_log) - INFO -  * Detected change in '/root/proj0712/untitled0930/app/tasks/CeleryAnsibleCall.py', reloading
+2017-09-15 12:18:32 - _internal.py:87(_internal:_log) - INFO -  * Restarting with stat
+2017-09-15 12:18:33 - _internal.py:87(_internal:_log) - WARNING -  * Debugger is active!
+2017-09-15 12:18:33 - _internal.py:87(_internal:_log) - INFO -  * Debugger PIN: 253-540-778
+2017-09-15 12:18:40 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 12:18:40] "POST /playbook HTTP/1.1" 200 -
+2017-09-15 12:19:16 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 12:19:16] "POST /playbook HTTP/1.1" 200 -
+2017-09-15 12:21:01 - _internal.py:87(_internal:_log) - INFO -  * Detected change in '/root/proj0712/untitled0930/app/tasks/CeleryAnsibleCall.py', reloading
+2017-09-15 12:21:01 - _internal.py:87(_internal:_log) - INFO -  * Restarting with stat
+2017-09-15 12:21:02 - _internal.py:87(_internal:_log) - WARNING -  * Debugger is active!
+2017-09-15 12:21:02 - _internal.py:87(_internal:_log) - INFO -  * Debugger PIN: 253-540-778
+2017-09-15 12:21:33 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 12:21:33] "POST /playbook HTTP/1.1" 200 -
+2017-09-15 12:25:17 - _internal.py:87(_internal:_log) - INFO -  * Detected change in '/root/proj0712/untitled0930/app/tasks/CeleryAnsibleCall.py', reloading
+2017-09-15 12:25:17 - _internal.py:87(_internal:_log) - INFO -  * Restarting with stat
+2017-09-15 12:25:18 - _internal.py:87(_internal:_log) - WARNING -  * Debugger is active!
+2017-09-15 12:25:18 - _internal.py:87(_internal:_log) - INFO -  * Debugger PIN: 253-540-778
+2017-09-15 12:25:37 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 12:25:37] "POST /playbook HTTP/1.1" 200 -
+2017-09-15 12:26:00 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 12:26:00] "POST /playbook HTTP/1.1" 200 -
+2017-09-15 12:26:26 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 12:26:26] "POST /playbook HTTP/1.1" 200 -
+2017-09-15 12:28:41 - _internal.py:87(_internal:_log) - INFO -  * Detected change in '/root/proj0712/untitled0930/app/tasks/CeleryAnsibleCall.py', reloading
+2017-09-15 12:28:41 - _internal.py:87(_internal:_log) - INFO -  * Restarting with stat
+2017-09-15 12:28:42 - _internal.py:87(_internal:_log) - WARNING -  * Debugger is active!
+2017-09-15 12:28:42 - _internal.py:87(_internal:_log) - INFO -  * Debugger PIN: 253-540-778
+2017-09-15 12:28:57 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 12:28:57] "POST /playbook HTTP/1.1" 200 -
+2017-09-15 12:30:50 - _internal.py:87(_internal:_log) - INFO -  * Detected change in '/root/proj0712/untitled0930/app/tasks/CeleryAnsibleCall.py', reloading
+2017-09-15 12:30:50 - _internal.py:87(_internal:_log) - INFO -  * Restarting with stat
+2017-09-15 12:30:51 - _internal.py:87(_internal:_log) - WARNING -  * Debugger is active!
+2017-09-15 12:30:51 - _internal.py:87(_internal:_log) - INFO -  * Debugger PIN: 253-540-778
+2017-09-15 12:30:59 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 12:30:59] "POST /playbook HTTP/1.1" 200 -
+2017-09-15 12:31:41 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 12:31:41] "POST /playbook HTTP/1.1" 200 -
+2017-09-15 12:32:24 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 12:32:24] "POST /playbook HTTP/1.1" 200 -
+2017-09-15 12:33:59 - _internal.py:87(_internal:_log) - INFO -  * Detected change in '/root/proj0712/untitled0930/app/utilites/__init__.py', reloading
+2017-09-15 12:33:59 - _internal.py:87(_internal:_log) - INFO -  * Restarting with stat
+2017-09-15 12:34:00 - _internal.py:87(_internal:_log) - WARNING -  * Debugger is active!
+2017-09-15 12:34:00 - _internal.py:87(_internal:_log) - INFO -  * Debugger PIN: 253-540-778
+2017-09-15 12:34:14 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 12:34:14] "POST /playbook HTTP/1.1" 200 -
+2018-02-10 23:33:39 - _internal.py:88(_internal:_log) - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-02-10 23:33:39 - _internal.py:88(_internal:_log) - INFO -  * Restarting with stat
+2018-02-10 23:33:40 - _internal.py:88(_internal:_log) - WARNING -  * Debugger is active!
+2018-02-10 23:33:40 - _internal.py:88(_internal:_log) - INFO -  * Debugger PIN: 239-139-087
+2018-02-10 23:33:46 - _internal.py:88(_internal:_log) - INFO - 127.0.0.1 - - [10/Feb/2018 23:33:46] "POST /playbook HTTP/1.1" 200 -
+2018-02-10 23:34:08 - _internal.py:88(_internal:_log) - INFO - 127.0.0.1 - - [10/Feb/2018 23:34:08] "GET /taskstatus/playbook/99e37d7c-e3ee-45b9-a0b6-5d841d6e6c00 HTTP/1.1" 200 -
+2018-02-10 23:47:47 - _internal.py:88(_internal:_log) - INFO - 127.0.0.1 - - [10/Feb/2018 23:47:47] "POST /playbook HTTP/1.1" 200 -
+2018-02-10 23:47:59 - _internal.py:88(_internal:_log) - INFO - 127.0.0.1 - - [10/Feb/2018 23:47:59] "GET /taskstatus/playbook/61c9fda4-b003-42f4-8a5f-705c30e8fae8 HTTP/1.1" 200 -
+2018-02-11 00:10:27 - _internal.py:88(_internal:_log) - INFO -  * Detected change in '/root/PycharmProjects/untitled0831/celery_work.py', reloading
+2018-02-11 00:10:28 - _internal.py:88(_internal:_log) - INFO -  * Restarting with stat
+2018-02-11 00:10:28 - _internal.py:88(_internal:_log) - WARNING -  * Debugger is active!
+2018-02-11 00:10:28 - _internal.py:88(_internal:_log) - INFO -  * Debugger PIN: 239-139-087
+2018-02-11 00:17:58 - _internal.py:88(_internal:_log) - INFO -  * Detected change in '/root/PycharmProjects/untitled0831/models/AnsibleApiCall.py', reloading
+2018-02-11 00:17:58 - _internal.py:88(_internal:_log) - INFO -  * Restarting with stat
