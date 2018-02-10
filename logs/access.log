@@ -237,19 +237,3 @@
 2017-09-15 12:34:00 - _internal.py:87(_internal:_log) - WARNING -  * Debugger is active!
 2017-09-15 12:34:00 - _internal.py:87(_internal:_log) - INFO -  * Debugger PIN: 253-540-778
 2017-09-15 12:34:14 - _internal.py:87(_internal:_log) - INFO - 127.0.0.1 - - [15/Sep/2017 12:34:14] "POST /playbook HTTP/1.1" 200 -
-2018-02-10 23:33:39 - _internal.py:88(_internal:_log) - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-2018-02-10 23:33:39 - _internal.py:88(_internal:_log) - INFO -  * Restarting with stat
-2018-02-10 23:33:40 - _internal.py:88(_internal:_log) - WARNING -  * Debugger is active!
-2018-02-10 23:33:40 - _internal.py:88(_internal:_log) - INFO -  * Debugger PIN: 239-139-087
-2018-02-10 23:33:46 - _internal.py:88(_internal:_log) - INFO - 127.0.0.1 - - [10/Feb/2018 23:33:46] "POST /playbook HTTP/1.1" 200 -
-2018-02-10 23:34:08 - _internal.py:88(_internal:_log) - INFO - 127.0.0.1 - - [10/Feb/2018 23:34:08] "GET /taskstatus/playbook/99e37d7c-e3ee-45b9-a0b6-5d841d6e6c00 HTTP/1.1" 200 -
-2018-02-10 23:47:47 - _internal.py:88(_internal:_log) - INFO - 127.0.0.1 - - [10/Feb/2018 23:47:47] "POST /playbook HTTP/1.1" 200 -
-2018-02-10 23:47:59 - _internal.py:88(_internal:_log) - INFO - 127.0.0.1 - - [10/Feb/2018 23:47:59] "GET /taskstatus/playbook/61c9fda4-b003-42f4-8a5f-705c30e8fae8 HTTP/1.1" 200 -
-2018-02-11 00:10:27 - _internal.py:88(_internal:_log) - INFO -  * Detected change in '/root/PycharmProjects/untitled0831/celery_work.py', reloading
-2018-02-11 00:10:28 - _internal.py:88(_internal:_log) - INFO -  * Restarting with stat
-2018-02-11 00:10:28 - _internal.py:88(_internal:_log) - WARNING -  * Debugger is active!
-2018-02-11 00:10:28 - _internal.py:88(_internal:_log) - INFO -  * Debugger PIN: 239-139-087
-2018-02-11 00:17:58 - _internal.py:88(_internal:_log) - INFO -  * Detected change in '/root/PycharmProjects/untitled0831/models/AnsibleApiCall.py', reloading
-2018-02-11 00:17:58 - _internal.py:88(_internal:_log) - INFO -  * Restarting with stat
-2018-02-11 00:18:02 - _internal.py:88(_internal:_log) - WARNING -  * Debugger is active!
-2018-02-11 00:18:02 - _internal.py:88(_internal:_log) - INFO -  * Debugger PIN: 239-139-087
